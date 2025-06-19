@@ -255,3 +255,6 @@ plot(s3data+er3,'Color', S71E,'LineWidth', 0.5)
 hold on
 plot(s3data-er3,'Color', S71E, 'LineWidth', 0.5)
 hold on
+
+% Keep only the useful variables
+clearvars -except cortex s2
